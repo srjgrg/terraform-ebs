@@ -7,7 +7,7 @@ resource "aws_autoscaling_group" "default" {
   desired_capacity          = 1
   force_delete              = true
   launch_configuration      = "${aws_launch_configuration.default.name}"
-  vpc_zone_identifier       = ["vpc-62567f18"]
+  vpc_zone_identifier       = ["subnet-122b865f"]
   #target_group_arns         = ["${aws_lb_target_group.default.arn}"]
 }
 
