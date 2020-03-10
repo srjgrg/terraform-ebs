@@ -14,7 +14,7 @@ data "aws_iam_policy_document" "default" {
   }
 }
 resource "aws_iam_policy" "default" {
-
+  name   = "teraform-ebs"
   policy = "${data.aws_iam_policy_document.default.json}"
 }
 resource "aws_iam_role" "default" {
