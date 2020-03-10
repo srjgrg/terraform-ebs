@@ -1,5 +1,5 @@
 resource "aws_security_group" "default" {
-  name        = "terraform-eb"
+  name        = "terraform-ebs"
   description = "Allow traffic"
   vpc_id      = "vpc-62567f18"
   ingress {
