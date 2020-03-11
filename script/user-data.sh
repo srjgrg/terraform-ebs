@@ -1,4 +1,4 @@
-#!/bin/bash
+
 vol=vol-05bc5599c17cfa82b
 mount_dir=/suraj
 device=/dev/xvdf/
